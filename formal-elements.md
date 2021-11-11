@@ -7,8 +7,8 @@
 ## מהות המשחק
 
  <p align="center">
-  <img src="https://github.com/V-LGame/SecretCrack/blob/main/img/images.jpg" />
-  <img src="https://github.com/V-LGame/SecretCrack/blob/main/img/201116_submarine-1026x684.jpg" />
+  <img src="https://github.com/L-VideoGames/SecretCrack/blob/master/img/images.jpg" />
+  <img src="https://github.com/L-VideoGames/SecretCrack/blob/master/img/201116_submarine-1026x684.jpg" />
  </p> 
  
 ### משחק אונליין בו השחקנים מתחלקים ל 2 קבוצות ,אחת נלחמת עם השנייה כדוגמא אפשר להביא את משחק הצוללות כך שהקבוצה מחליטה כגוף אחד דרך הצבעה מה יהיה הצעד הבא  שלהם הנקודה של המשחק הוא שאסור לתקשר קולית אלא רק דרך הצ'אט של המשחק והוא משותף לכל השחקנים (מעין אנלוגיה לרדיו שכולם יכולים לקלוט ולשדר) ,הודעות של כל אחת מהקבוצות מוצפנות בהצפנה כלשהי שהשרת בוחר ,המטרה של כל אחת מהקבוצות היא לפרוץ את ההצפנה ולקרוא את ההודעות של הקבוצה היריבה ולגלות את מיקומי הספינות של היריב וכך לנצח את המשחק. האינטרס של השחקנים יהיה לא רק לשחק בצוללות אלא לפצח את ההצפנה של ההודעות שלהם שהיא תצריך שימוש בכלים מתמטיים נרחבים.
@@ -40,9 +40,9 @@
 *	בכדי לנצח יש להפיל את כל הצוללות של השחקנים היריבים.
 *הפקדים הנדרשים בכדי לשחק הם סמן שייצג איזה מיקום אנו רוצים "להפציץ", קליק כלשהו ומקלדת על מנת להחליט היכן לשים את הצוללות בהתחלה
 
- <img src="https://github.com/V-LGame/SecretCrack/blob/main/img/chat.jpg" />
+ <img src="https://github.com/L-VideoGames/SecretCrack/blob/master/img/chat.jpg" />
 
-  <img src="https://github.com/V-LGame/SecretCrack/blob/main/img/Tactic1_ghuy.gif" />
+  <img src="https://github.com/L-VideoGames/SecretCrack/blob/master/img/Tactic1_ghuy.gif" />
 
 ### 4. חוקים
 
@@ -51,7 +51,7 @@
 * השחקן ילמד את חוקי המשחק או ע"י מדריך קצר של החוקים (ניתן לראות שכשלוש עמודות)
 
  
-  <img src="https://github.com/V-LGame/SecretCrack/blob/main/img/images.png" />
+  <img src="https://github.com/L-VideoGames/SecretCrack/blob/master/img/images.png" />
  
 ### 5. משאבים
 
@@ -98,7 +98,7 @@
 
  ### אפליקצייה
  
-   <img src="https://github.com/V-LGame/SecretCrack/blob/main/img/gdfgdf.png" />
+   <img src="https://github.com/L-VideoGames/SecretCrack/blob/master/img/gdfgdf.png" />
  
  **[Link](https://play.google.com/store/apps/details?id=com.saharon.saharon.tsolelot&hl=iw&gl=US)**
  
@@ -107,7 +107,7 @@
 
 ### משחק קופסא
   
- <img src="https://github.com/V-LGame/SecretCrack/blob/main/img/za.png" />
+ <img src="https://github.com/L-VideoGames/SecretCrack/blob/master/img/za.png" />
  
  **[Link](https://www.zap.co.il/model.aspx?modelid=696397)**
  
@@ -116,7 +116,7 @@
  
 ### משחק אונליין
 
-   <img src="https://github.com/V-LGame/SecretCrack/blob/main/img/yo.png" />
+   <img src="https://github.com/L-VideoGames/SecretCrack/blob/master/img/yo.png" />
 
   **[Link](http://games.yo-yoo.co.il/games_play.php?game=5013)**
  

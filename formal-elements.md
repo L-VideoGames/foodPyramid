@@ -7,8 +7,7 @@
 ## מהות המשחק
 
  <p align="center">
-  <img src="" />
-  <img src="" />
+  <img src="https://github.com/L-VideoGames/foodPyramid/blob/master/img/1.png" />
  </p> 
  
 ### משחק לימודי המתנהל בעולם שבו השחקן רודף אחרי אוכל, במשחק עצמו צריך לתפפוס במהלך ריצה אוכל בריא ככול האפשר ואוכל הנחוץ לשחקן באותו שלב, מטרות המשחק הם לשלב משחק ותוך כדיי ללמד על ערכים תזונתיים של מאכלים מסויימים, המשחק פונה לכל גיל אשר המשתמש יודע ללחוץ על לחצני המקלדת, המשחק מיועד למחשב
@@ -41,9 +40,6 @@
 * הפקדים הנדרשים בכדי לשחק הם חצים על מנת לקבוע את מיקום השחק בזמן הריצה מקש קפיצה ומקש גלישבה
 * לשחקן יהיו גם מיכשולים בדמות ווירוסים או דברים הקשורים לאוכל שיכולים להפסיל אותו ולגרום לו להפסיד מוקדם מהצפוי
  
- <img src="" />
-
-  <img src="" />
 
 ### 4. חוקים
 
@@ -51,8 +47,7 @@
 * התוצאות יהיו ניקוד טוב ועלייה במדיד של ערך טוב או הורדת ניקוד והשפעה על השחקן בהתאם לערך לא רצוי
 * השחקן ילמד את חוקי המשחק או ע"י מדריך קצר של החוקים (מקשים ומה המטרה)
 
- 
-  <img src="" />
+
  
 ### 5. משאבים
 
@@ -98,7 +93,7 @@
 
  ### Fitness Food Run
  
-   <img src="" />
+   <img src="https://github.com/L-VideoGames/foodPyramid/blob/master/img/A.png" />
  
  **[Link](https://www.culinaryschools.org/kids-games/food-run/)**
  
@@ -107,7 +102,7 @@
 
 ### Hero Runner
   
- <img src="" />
+ <img src="https://github.com/L-VideoGames/foodPyramid/blob/master/img/B.png" />
  
  **[Link](https://apkpure.com/hero-runner-running-game/com.MetallicMedia.Hero.Runner)**
  
@@ -116,7 +111,7 @@
  
 ### Temple Run
 
-   <img src="" />
+   <img src="https://github.com/L-VideoGames/foodPyramid/blob/master/img/C.png" />
 
   **[Link](https://play.google.com/store/apps/details?id=com.imangi.templerun&hl=en_US&gl=US)**
  

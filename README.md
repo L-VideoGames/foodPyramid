@@ -6,7 +6,15 @@
   
   
   
-למעבר להסבר לחץ [כאן](https://github.com/L-VideoGames/foodPyramid/blob/master/formal-elements.md)
+[למעבר להסבר לחץ כאן](https://github.com/L-VideoGames/foodPyramid/blob/master/formal-elements.md)
 
+  
+  ### הסבר קצר על המשחק:
+  * מקשי המשחק הם החצים (ימין ושמאל)
+  * מטרת המשחק לתפוס כמה שיותר מאכלים ולגיע ל100 בכל המדדים
+  * (המשחק עדיים לא מתחשב במדדים כיוון שהוא עדיין בתהלכי פיתוח!)
+  
+  
+ ***[למעבר למשחק לחץ כאן](https://liadn7.itch.io/foodpyramid)***
 </div>
 

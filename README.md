@@ -8,6 +8,8 @@
   
 [למעבר להסבר לחץ כאן](https://github.com/L-VideoGames/foodPyramid/blob/master/formal-elements.md)
 
+  [למעבר לרכיבים הדרמטיים לחץ כאן](https://github.com/L-VideoGames/foodPyramid/blob/master/DramaticElements.md)
+  
   
   ### הסבר קצר על המשחק:
   * מקשי המשחק הם החצים (ימין ושמאל)

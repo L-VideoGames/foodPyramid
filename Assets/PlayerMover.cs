@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
-
+using Random = UnityEngine.Random;
 /**
  * This component moves its object when the player clicks the arrow keys.
  */
@@ -13,7 +13,7 @@ public class PlayerMover : MonoBehaviour
     [SerializeField] float speed;
     [SerializeField] SpriteRenderer mySpriteRenderer;
     [SerializeField] TextMeshPro[] TextScales;
-    [SerializeField] int[] PlayerScales;
+    [SerializeField] protected int[] PlayerScales;
 
     [SerializeField] GameObject[] Triggers;
     //[SerializeField] GameObject End;
@@ -43,46 +43,105 @@ public class PlayerMover : MonoBehaviour
     }
 
 
-
+    //update the scale
     private void OnTriggerEnter2D(Collider2D other)
     {
-
+        int rand = Random.Range(1, 5);
 
         if (other.tag == "Sugar")
         {
+            if (PlayerScales[0] == 100)
+            {
+                PlayerScales[5]--;
+                TextScales[5].text = "" + PlayerScales[5].ToString();
+            }
+            else
+            {
+                PlayerScales[0]++;
+                TextScales[0].text = "" + PlayerScales[0].ToString();
+            }
+
             Destroy(other.gameObject);
-            PlayerScales[0]++;
-            TextScales[0].text = "" + PlayerScales[0].ToString();
+            //PlayerScales[0]++;
+            //TextScales[0].text = "" + PlayerScales[0].ToString();
         }
         if (other.tag == "Proteins")
         {
+            if (PlayerScales[1] == 100)
+            {
+                PlayerScales[rand]--;
+                TextScales[rand].text = "" + PlayerScales[rand].ToString();
+            }
+            else
+            {
+                PlayerScales[1]++;
+                TextScales[1].text = "" + PlayerScales[1].ToString();
+            }
             Destroy(other.gameObject);
-            PlayerScales[1]++;
-            TextScales[1].text = "" + PlayerScales[1].ToString();
+
         }
         if (other.tag == "VegetablesAndFruits")
         {
+            if (PlayerScales[2] == 100)
+            {
+                PlayerScales[rand]--;
+                TextScales[rand].text = "" + PlayerScales[rand].ToString();
+            }
+            else
+            {
+                PlayerScales[2]++;
+                TextScales[2].text = "" + PlayerScales[2].ToString();
+            }
+            
+
             Destroy(other.gameObject);
-            PlayerScales[2]++;
-            TextScales[2].text = "" + PlayerScales[2].ToString();
         }
         if (other.tag == "Fats")
         {
+            if (PlayerScales[3] == 100)
+            {
+                PlayerScales[rand]--;
+                TextScales[rand].text = "" + PlayerScales[rand].ToString();
+            }
+            else
+            {
+                PlayerScales[3]++;
+                TextScales[3].text = "" + PlayerScales[3].ToString();
+            }
+            
             Destroy(other.gameObject);
-            PlayerScales[3]++;
-            TextScales[3].text = "" + PlayerScales[3].ToString();
+
         }
         if (other.tag == "Cereals")
         {
+            if (PlayerScales[4] == 100)
+            {
+                PlayerScales[rand]--;
+                TextScales[rand].text = "" + PlayerScales[rand].ToString();
+            }
+            else
+            {
+                PlayerScales[4]++;
+                TextScales[4].text = "" + PlayerScales[4].ToString();
+            }
             Destroy(other.gameObject);
-            PlayerScales[4]++;
-            TextScales[4].text = "" + PlayerScales[4].ToString();
+
         }
         if (other.tag == "Water")
         {
+            if (PlayerScales[5] == 100)
+            {
+                PlayerScales[0]--;
+                TextScales[0].text = "" + PlayerScales[0].ToString();
+            }
+            else
+            {
+                PlayerScales[5]++;
+                TextScales[5].text = "" + PlayerScales[5].ToString();
+            }
             Destroy(other.gameObject);
-            PlayerScales[5]++;
-            TextScales[5].text = "" + PlayerScales[5].ToString();
+            //PlayerScales[5]++;
+            //TextScales[5].text = "" + PlayerScales[5].ToString();
         }
 
 

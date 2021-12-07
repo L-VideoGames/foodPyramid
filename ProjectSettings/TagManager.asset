@@ -5,11 +5,11 @@ TagManager:
   serializedVersion: 2
   tags:
   - Sugar
-  - Water
   - Proteins
   - VegetablesAndFruits
   - Fats
   - Cereals
+  - Water
   layers:
   - Default
   - TransparentFX
@@ -17,7 +17,7 @@ TagManager:
   - 
   - Water
   - UI
-  - 
+  - Ground
   - 
   - 
   - 

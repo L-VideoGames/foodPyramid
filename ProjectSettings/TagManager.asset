@@ -10,6 +10,11 @@ TagManager:
   - Fats
   - Cereals
   - Water
+  - Carbs
+  - PP
+  - Rock
+  - Song
+  - Levels
   layers:
   - Default
   - TransparentFX

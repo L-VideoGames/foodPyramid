@@ -6,6 +6,8 @@ public class GroundTile : MonoBehaviour
     GroundSpawner groundSpawn;
     [SerializeField] GameObject ObsPrefab;
     [SerializeField] GameObject[] FruitPrefab;
+    [SerializeField] GameObject PortaPotty;
+    
     [SerializeField] int numOfFood = 2;
 
     // Start is called before the first frame update
@@ -20,6 +22,7 @@ public class GroundTile : MonoBehaviour
     private void OnTriggerExit(Collider other)
     {
         groundSpawn.spawnTile(true);
+        //groundSpawn.spa
         Destroy(gameObject, 2);
     }
 
@@ -50,10 +53,20 @@ public class GroundTile : MonoBehaviour
 
     }
 
+    public void SpawnPP()
+    {
+        //choose a random position
+        int rand = Random.Range(2, 5);
+        Transform SpawnPoint = transform.GetChild(rand).transform;
+        //Spawn the object
+        Instantiate(PortaPotty, SpawnPoint.position, Quaternion.identity, transform);
+
+
+    }
     Vector3 GetRandomPointInCollider(Collider collider)
     {
         Vector3 point = new Vector3(
-            Random.Range(collider.bounds.min.x, collider.bounds.max.x),
+            (int)Random.Range(collider.bounds.min.x+1f, collider.bounds.max.x-1f),
             Random.Range(collider.bounds.min.y, collider.bounds.max.y),
             Random.Range(collider.bounds.min.z, collider.bounds.max.z)
             );

@@ -2,7 +2,8 @@
 
 <img src="https://github.com/L-VideoGames/foodPyramid/blob/master/img/gamePlay.gif" />
 
-***An educational game that takes place in a world where the player chases after food, in the game you need to take foods according to the nutritional value required at that stage, the game's goals are to stage a game and teach about the nutritional values of certain foods. the game is intended for a computer***  
+***An educational game that takes place in a world where the player chases after food, in the game you need to take foods according to the nutritional value required at that stage, the game's goals is to teach about the nutritional values of certain foods. the game is intended for a computer .
+***  
   
   
   

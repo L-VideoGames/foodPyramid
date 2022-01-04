@@ -20,7 +20,7 @@ public class FruitTrriger : MonoBehaviour
             GameManager.inst.addScore(this.gameObject.GetComponent<Collider>());
         }
         
-        Destroy(gameObject);
+        Destroy(this.gameObject);
 
     }
 

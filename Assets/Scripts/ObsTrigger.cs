@@ -9,13 +9,21 @@ public class ObsTrigger : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        mover = GameObject.FindObjectOfType<PlayerMover>();
+        
     }
 
-/*    void OnCollisionEnter(Collision collision)
+    private void OnTriggerEnter(Collider other)
     {
-        //SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-    }*/
+        if (other.tag == "Player")
+        {
+            GameManager.inst.setInjured();
+
+            Destroy(this.gameObject);
+        }
+
+        
+
+    }
 
 
 

@@ -9,9 +9,42 @@ EditorBuildSettings:
     path: Assets/Scenes/Main.unity
     guid: e6aac7071b3996c4a87cbff40fa8b0f4
   - enabled: 1
+    path: Assets/Scenes/Help.unity
+    guid: 4641f6bc273d59c45a7d2354ba0fb0ec
+  - enabled: 1
+    path: Assets/Scenes/KeyboardHelp.unity
+    guid: b53348fe8363d684d863f41d110995df
+  - enabled: 1
+    path: Assets/Scenes/PreLevel1.unity
+    guid: 154cd154eaa53a7458b7fbe8095ef0d9
+  - enabled: 1
+    path: Assets/Scenes/PreLevel2.unity
+    guid: c6a88be7634727745b0fe1e92e3cb85d
+  - enabled: 1
+    path: Assets/Scenes/PreLevel3.unity
+    guid: 06fd33c7088628c428e12fe6120a1c26
+  - enabled: 1
+    path: Assets/Scenes/PreLevelBonus.unity
+    guid: cd8b2795cadda7c489db779eac2d32c9
+  - enabled: 1
     path: Assets/Scenes/level1.unity
     guid: d25cab0d40614964dbfcc4aed32fceb4
   - enabled: 1
-    path: Assets/Scenes/Help.unity
-    guid: 4641f6bc273d59c45a7d2354ba0fb0ec
+    path: Assets/Scenes/level2.unity
+    guid: 04398fb4838dc224eac23bee957737f5
+  - enabled: 1
+    path: Assets/Scenes/level3.unity
+    guid: f4896a68425206545be9542a5fe5007b
+  - enabled: 1
+    path: Assets/Scenes/underweightLevel.unity
+    guid: c1d2d625764865f43abf3c48984e16d9
+  - enabled: 1
+    path: Assets/Scenes/normalLevel.unity
+    guid: b02741cdcc6d7214db9d3baf97b8a9d8
+  - enabled: 1
+    path: Assets/Scenes/overweightLevel.unity
+    guid: 08db5a8902cb9c6479d38aed494405eb
+  - enabled: 1
+    path: Assets/Scenes/End.unity
+    guid: 397d4b7a377ae464e8a7f7137a344ffa
   m_configObjects: {}

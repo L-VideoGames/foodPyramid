@@ -1,0 +1,115 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &927737176383056273
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -6308125124835409689, guid: 44636ed1854892442bbc0498f42f7be9, type: 3}
+      propertyPath: FruitPrefab.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: -6308125124835409689, guid: 44636ed1854892442bbc0498f42f7be9, type: 3}
+      propertyPath: FruitPrefab.Array.data[0]
+      value: 
+      objectReference: {fileID: 1761302259652774856, guid: 02fd19fe264193b4fb5d35992d267264, type: 3}
+    - target: {fileID: -6308125124835409689, guid: 44636ed1854892442bbc0498f42f7be9, type: 3}
+      propertyPath: FruitPrefab.Array.data[1]
+      value: 
+      objectReference: {fileID: 5532631294669871949, guid: 45794004121822d41a9740a8d9413a0c, type: 3}
+    - target: {fileID: -6308125124835409689, guid: 44636ed1854892442bbc0498f42f7be9, type: 3}
+      propertyPath: FruitPrefab.Array.data[2]
+      value: 
+      objectReference: {fileID: 3979876589921915454, guid: 426ca0e1fd291bd418ca9ae78190ea68, type: 3}
+    - target: {fileID: -6308125124835409689, guid: 44636ed1854892442bbc0498f42f7be9, type: 3}
+      propertyPath: FruitPrefab.Array.data[3]
+      value: 
+      objectReference: {fileID: 3317642519355093598, guid: cb74e426fe955044283045c19463444b, type: 3}
+    - target: {fileID: -6308125124835409689, guid: 44636ed1854892442bbc0498f42f7be9, type: 3}
+      propertyPath: FruitPrefab.Array.data[4]
+      value: 
+      objectReference: {fileID: 6105683477820585375, guid: 4efcd53623cdd5649941e94ab399ecc6, type: 3}
+    - target: {fileID: -6308125124835409689, guid: 44636ed1854892442bbc0498f42f7be9, type: 3}
+      propertyPath: FruitPrefab.Array.data[5]
+      value: 
+      objectReference: {fileID: 6565921666276783494, guid: 366253da0ba139f49bcf97b86356cd6c, type: 3}
+    - target: {fileID: -6308125124835409689, guid: 44636ed1854892442bbc0498f42f7be9, type: 3}
+      propertyPath: FruitPrefab.Array.data[6]
+      value: 
+      objectReference: {fileID: 6565921666276783494, guid: 366253da0ba139f49bcf97b86356cd6c, type: 3}
+    - target: {fileID: -6308125124835409689, guid: 44636ed1854892442bbc0498f42f7be9, type: 3}
+      propertyPath: FruitPrefab.Array.data[7]
+      value: 
+      objectReference: {fileID: 6565921666276783494, guid: 366253da0ba139f49bcf97b86356cd6c, type: 3}
+    - target: {fileID: -6308125124835409689, guid: 44636ed1854892442bbc0498f42f7be9, type: 3}
+      propertyPath: FruitPrefab.Array.data[8]
+      value: 
+      objectReference: {fileID: 6565921666276783494, guid: 366253da0ba139f49bcf97b86356cd6c, type: 3}
+    - target: {fileID: -6308125124835409689, guid: 44636ed1854892442bbc0498f42f7be9, type: 3}
+      propertyPath: FruitPrefab.Array.data[9]
+      value: 
+      objectReference: {fileID: 6565921666276783494, guid: 366253da0ba139f49bcf97b86356cd6c, type: 3}
+    - target: {fileID: -6308125124835409689, guid: 44636ed1854892442bbc0498f42f7be9, type: 3}
+      propertyPath: FruitPrefab.Array.data[10]
+      value: 
+      objectReference: {fileID: 6565921666276783494, guid: 366253da0ba139f49bcf97b86356cd6c, type: 3}
+    - target: {fileID: -6308125124835409689, guid: 44636ed1854892442bbc0498f42f7be9, type: 3}
+      propertyPath: FruitPrefab.Array.data[11]
+      value: 
+      objectReference: {fileID: 6565921666276783494, guid: 366253da0ba139f49bcf97b86356cd6c, type: 3}
+    - target: {fileID: -6308125124835409689, guid: 44636ed1854892442bbc0498f42f7be9, type: 3}
+      propertyPath: FruitPrefab.Array.data[12]
+      value: 
+      objectReference: {fileID: 6565921666276783494, guid: 366253da0ba139f49bcf97b86356cd6c, type: 3}
+    - target: {fileID: 2301579570556886625, guid: 44636ed1854892442bbc0498f42f7be9, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2301579570556886625, guid: 44636ed1854892442bbc0498f42f7be9, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -101.41389
+      objectReference: {fileID: 0}
+    - target: {fileID: 2301579570556886625, guid: 44636ed1854892442bbc0498f42f7be9, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -13.221161
+      objectReference: {fileID: 0}
+    - target: {fileID: 2301579570556886625, guid: 44636ed1854892442bbc0498f42f7be9, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2301579570556886625, guid: 44636ed1854892442bbc0498f42f7be9, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2301579570556886625, guid: 44636ed1854892442bbc0498f42f7be9, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2301579570556886625, guid: 44636ed1854892442bbc0498f42f7be9, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2301579570556886625, guid: 44636ed1854892442bbc0498f42f7be9, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2301579570556886625, guid: 44636ed1854892442bbc0498f42f7be9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2301579570556886625, guid: 44636ed1854892442bbc0498f42f7be9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2301579570556886625, guid: 44636ed1854892442bbc0498f42f7be9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2301579570556886626, guid: 44636ed1854892442bbc0498f42f7be9, type: 3}
+      propertyPath: m_Name
+      value: GroundTileLevel1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 44636ed1854892442bbc0498f42f7be9, type: 3}

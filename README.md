@@ -21,5 +21,5 @@
   
  ***[Link to the game](https://liadn7.itch.io/foodpyramid)***
 
- ***[Link to the trailer](https://youtu.be/K6n5VrVHFQg)***
+ ***[Link to the trailer](https://youtu.be/6-lDc7kF0fU)***
 

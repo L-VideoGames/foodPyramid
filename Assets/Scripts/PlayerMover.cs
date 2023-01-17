@@ -19,6 +19,11 @@ public class PlayerMover : MonoBehaviour
     private float leftX;
     private float rigthX;
     private bool fixMove;
+    private bool fixRun;
+
+    private Vector2 startTouchPos;
+    private Vector2 endTouchPos;
+    private int touchVal = 0;
 
     void Start()
     {
@@ -29,6 +34,7 @@ public class PlayerMover : MonoBehaviour
         leftX = posX - 3f;
         rigthX = posX + 3f;
         fixMove = true;
+        fixRun = true;
         //playerAnimator = GetComponent<Animator>();
     }
 
@@ -37,7 +43,21 @@ public class PlayerMover : MonoBehaviour
         //horizontal = Input.GetAxis("Horizontal");
         if (fixMove)
         {
-            if (Input.GetKeyUp(KeyCode.RightArrow))
+            //int touchVal = 0;
+            if(Input.touchCount>0 && Input.GetTouch(0).phase == TouchPhase.Began)
+            {
+                startTouchPos = Input.GetTouch(0).position;
+                print(111);
+            }
+            if (Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Ended)
+            {
+                endTouchPos = Input.GetTouch(0).position;
+                if (endTouchPos.x < startTouchPos.x){ touchVal = 1;}
+                else if(endTouchPos.x > startTouchPos.x) { touchVal = 2; }
+                print(222);
+            }
+            
+            if (Input.GetKeyUp(KeyCode.RightArrow)|| touchVal == 2)
             {
                 StartCoroutine(fixedMover());
                 if (posX < rigthX)
@@ -48,10 +68,10 @@ public class PlayerMover : MonoBehaviour
                 {
                     posX = rigthX;
                 }
-            
+                touchVal = 0;
                 //rb.MovePosition(rb.position + movementHorizontal); transform.right;
             }
-            else if (Input.GetKeyUp(KeyCode.LeftArrow))
+            else if (Input.GetKeyUp(KeyCode.LeftArrow) || touchVal == 1)
             {
                 StartCoroutine(fixedMover());
                 if (posX > leftX)
@@ -62,7 +82,8 @@ public class PlayerMover : MonoBehaviour
                 {
                     posX = leftX;
                 }
-            
+                touchVal = 0;
+                
             }
         }
 
@@ -74,6 +95,10 @@ public class PlayerMover : MonoBehaviour
         if (GameManager.inst.getInjured())
         {
             tempSpeed = speed-1f;
+            if (fixRun)
+            {
+                StartCoroutine(fixSpeedAfterInj());
+            }
         }
         else if (Input.GetKeyDown(KeyCode.UpArrow))
         {
@@ -85,6 +110,8 @@ public class PlayerMover : MonoBehaviour
             tempSpeed = speed;
             tempHorizonSpeed = horizonSpeed + 2f;
         }
+
+
 
         Vector3 movementVector = transform.forward * tempSpeed * Time.deltaTime;
         rb.MovePosition(rb.position + movementVector  * 2f);
@@ -112,6 +139,14 @@ public class PlayerMover : MonoBehaviour
         yield return new WaitForSeconds(0.001f);
         fixMove = true;
 
+    }
+    IEnumerator fixSpeedAfterInj()
+    {
+
+        fixRun = false;
+        yield return new WaitForSeconds(3.0f);
+        tempSpeed = speed;
+        fixRun = true;
     }
 
     void Jump()
